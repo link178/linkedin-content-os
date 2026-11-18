@@ -1,0 +1,35 @@
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.token
+linkedin-token*
+*.pem
+secrets/
+credentials.json
+
+# LinkedIn sessions and browser state
+*cookies*
+*.session
+
+# Raw analytics exports can contain account identifiers
+analytics/imports/*
+!analytics/imports/.gitkeep
+
+# Python caches from vendored or future local scripts
+__pycache__/
+*.pyc
+.venv/
+
+# Review Inbox runtime status
+content/cycles/inbox-job.json
+content/cycles/inbox-run.log
+content/cycles/cycle.lock
+content/cycles/ops-runs.jsonl
+content/cycles/runs/
+
+# OS and editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp

@@ -1,0 +1,32 @@
+name: deterministic
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: deterministic tests
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Compile
+        run: python -m compileall -q scripts .cursor/skills/li-human
+      - name: Proof registry
+        run: python scripts/validate_proof_registry.py
+      - name: Offline demo
+        run: python scripts/public_demo.py
+      - name: Unit tests
+        env:
+          LCOS_ALLOW_LIVE_SMOKE: "0"
+        run: python -m unittest discover -s scripts -p "test_*.py"

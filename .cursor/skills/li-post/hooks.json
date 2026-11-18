@@ -1,0 +1,223 @@
+{
+  "version": "p2",
+  "note": "Twenty-one hook shapes adapted from vendor/linkedin-agent-skill/skills/li-post/hooks.json (MIT, Jake Schincariol). Examples illustrate the shape. They are not evidence about the author. Do not copy their numbers, clients, or outcomes. fit is a craft note, not a performance ranking.",
+  "rules": [
+    "One idea per hook. If it needs two ideas, it is two posts.",
+    "Line 2 pays off line 1. Do not spend it on setup.",
+    "A question in line 1 has to be specific to this evidence.",
+    "Numbers come from verified public claims. Do not invent one because the shape wants a number.",
+    "If the hook would still work under someone else's name with no proof id, do not use it."
+  ],
+  "hooks": [
+    {
+      "id": 1,
+      "slug": "contrarian",
+      "name": "Contrarian Take",
+      "template": "Everyone says {common advice}. After {specific experience}, I think that is wrong.",
+      "example_is_illustration": true,
+      "example": "Everyone says post daily. I posted 4x a week for a year and beat every daily poster in my niche.",
+      "fit": "A stance against a common engineering habit, tied to a specific public-safe result or decision.",
+      "trap": "Being contrarian about something nobody believes. The belief has to be genuinely common."
+    },
+    {
+      "id": 2,
+      "slug": "number-reveal",
+      "name": "Number Reveal",
+      "template": "I {did thing} for {N} {days/weeks}. Here is what actually happened.",
+      "example_is_illustration": true,
+      "example": "I sent 400 cold DMs in 30 days. 11 replied. 2 became clients.",
+      "fit": "A count a verified public claim already states, kept inside its qualification.",
+      "trap": "Burying the number. Put it in line 1 or the formula does nothing."
+    },
+    {
+      "id": 3,
+      "slug": "mistake",
+      "name": "Mistake Confession",
+      "template": "{Specific cost} is what {one mistake} cost me.",
+      "example_is_illustration": true,
+      "example": "$18,000 is what not having a contract cost me last March.",
+      "fit": "A real limitation, rejected option, or failed approach the evidence records.",
+      "trap": "A fake-humble mistake. 'I care too much' reads as a brag and kills the post."
+    },
+    {
+      "id": 4,
+      "slug": "before-after",
+      "name": "Before / After",
+      "template": "{Time ago} I was {low state}. Today I {high state}. The difference was {one thing}.",
+      "example_is_illustration": true,
+      "example": "18 months ago I was writing proposals at 2am. Today I send them in 6 minutes. One template did it.",
+      "fit": "One change between two states the evidence actually describes.",
+      "trap": "Three-part transformations. Name one lever or the reader stops believing you."
+    },
+    {
+      "id": 5,
+      "slug": "list",
+      "name": "The List Promise",
+      "template": "{N} things I wish someone had told me before {milestone}.",
+      "example_is_illustration": true,
+      "example": "7 things I wish someone had told me before I hired my first employee.",
+      "fit": "A short set of lessons that each have claims. Voice rejects a 10-lessons frame.",
+      "trap": "N above 10. The reader does not believe you have 15 good ones, and you do not."
+    },
+    {
+      "id": 6,
+      "slug": "insider",
+      "name": "Insider Secret",
+      "template": "After {N} years {doing thing}, here is the part nobody puts in the {job posting/course/pitch}.",
+      "example_is_illustration": true,
+      "example": "After 9 years in agency sales, here is the part nobody puts in the job posting.",
+      "fit": "A public-safe detail from real work. No invented tenure.",
+      "trap": "Promising a secret and delivering common knowledge. The comments will say so."
+    },
+    {
+      "id": 7,
+      "slug": "callout",
+      "name": "The Callout",
+      "template": "If you are still {doing outdated thing}, stop.",
+      "example_is_illustration": true,
+      "example": "If you are still writing your LinkedIn posts in the LinkedIn composer, stop.",
+      "fit": "One instruction grounded in a decision the evidence supports.",
+      "trap": "Calling out something nobody does. Or worse, calling out your own audience with contempt."
+    },
+    {
+      "id": 8,
+      "slug": "question",
+      "name": "Question Trap",
+      "template": "{Specific scenario with a real cost}. What do you do?",
+      "example_is_illustration": true,
+      "example": "Your best client asks for a 40% discount and hints they will leave without it. What do you do?",
+      "fit": "A specific fork from the engineering substance. Not Thoughts? or Agree?.",
+      "trap": "A question with an obvious right answer. There has to be a real fork."
+    },
+    {
+      "id": 9,
+      "slug": "cold-open",
+      "name": "Story Cold Open",
+      "template": "\"{Line of dialogue}\"\\n\\n{Who said it, when, and why it mattered}.",
+      "example_is_illustration": true,
+      "example": "\"We are going with someone cheaper.\"\\n\\nThat email arrived 40 minutes after I sent my best proposal of the year.",
+      "fit": "A concrete scene the evidence supports. No invented dialogue.",
+      "trap": "Dialogue nobody would actually say. Use the real line, including the ugly parts."
+    },
+    {
+      "id": 10,
+      "slug": "receipt",
+      "name": "The Receipt",
+      "template": "{Screenshot or hard number}. {One sentence of context}.",
+      "example_is_illustration": true,
+      "example": "3 clients, 11 days, zero calls booked. Here is the exact sequence that did it.",
+      "fit": "A verified number plus the scope that makes that number true.",
+      "trap": "A receipt with no story attached. The number opens the door, the story is the room."
+    },
+    {
+      "id": 11,
+      "slug": "myth",
+      "name": "Myth Bust",
+      "template": "{Popular explanation} is not why {bad outcome} is happening to you.",
+      "example_is_illustration": true,
+      "example": "The algorithm is not why your posts are dying.",
+      "fit": "Name a generalization the evidence does not support, then say what it does support.",
+      "trap": "Busting the myth and never naming the replacement. Always name it."
+    },
+    {
+      "id": 12,
+      "slug": "comparison",
+      "name": "The Comparison",
+      "template": "{Expensive option} vs {cheap option}. {Surprising verdict}.",
+      "example_is_illustration": true,
+      "example": "A $12,000 brand agency vs a $20 tool and a weekend. The weekend won.",
+      "fit": "Two options that were actually compared or rejected in the evidence.",
+      "trap": "An unfair comparison. Concede what the expensive option genuinely does better."
+    },
+    {
+      "id": 13,
+      "slug": "permission",
+      "name": "Permission Slip",
+      "template": "You are allowed to {thing the reader feels guilty about}.",
+      "example_is_illustration": true,
+      "example": "You are allowed to turn down work that pays well and makes you miserable.",
+      "fit": "A specific professional judgment the evidence supports. Not generic encouragement.",
+      "trap": "Generic self-care. It has to be specific to the working life of your reader."
+    },
+    {
+      "id": 14,
+      "slug": "interrupt",
+      "name": "Pattern Interrupt",
+      "template": "{One word or three-word line, full stop.}",
+      "example_is_illustration": true,
+      "example": "I got fired.",
+      "fit": "A short true sentence. No invented dramatic event.",
+      "trap": "Repeating this opener on every post becomes a tic."
+    },
+    {
+      "id": 15,
+      "slug": "warning",
+      "name": "The Warning",
+      "template": "{Common practice} is quietly costing you {specific thing they care about}.",
+      "example_is_illustration": true,
+      "example": "Your 'quick call to align' is quietly costing you six hours a week.",
+      "fit": "A cost the evidence describes. No invented business impact.",
+      "trap": "Fear with no exit. Give the fix in the same post or you have just made someone anxious."
+    },
+    {
+      "id": 16,
+      "slug": "distinction",
+      "name": "Good vs Great",
+      "template": "Good {role} {do X}. Great {role} {do Y}.",
+      "example_is_illustration": true,
+      "example": "Good salespeople answer the question. Great salespeople ask why it was asked.",
+      "fit": "Two different engineering actions, both grounded.",
+      "trap": "A distinction that is really just 'try harder'. Y has to be a different action, not more effort."
+    },
+    {
+      "id": 17,
+      "slug": "time-anchor",
+      "name": "Time Anchor",
+      "template": "{Task} used to take me {long time}. It now takes {short time}.",
+      "example_is_illustration": true,
+      "example": "Writing a week of posts used to take me 5 hours. It now takes 20 minutes.",
+      "fit": "A before-and-after duration only when a verified claim states both.",
+      "trap": "An unbelievable ratio. 5 hours to 20 minutes lands. 5 hours to 8 seconds does not."
+    },
+    {
+      "id": 18,
+      "slug": "rule",
+      "name": "The Unpopular Rule",
+      "template": "I do not {widely accepted practice}. Ever. Here is why.",
+      "example_is_illustration": true,
+      "example": "I do not take discovery calls. Ever.",
+      "fit": "A practice the evidence shows the author actually follows.",
+      "trap": "A rule you break constantly. Someone in the comments will know."
+    },
+    {
+      "id": 19,
+      "slug": "curiosity",
+      "name": "Curiosity Gap",
+      "template": "The {superlative} {thing} I ever {verb} {broke the obvious rule}.",
+      "example_is_illustration": true,
+      "example": "The best hire I ever made failed the interview.",
+      "fit": "A specific surprise the body then explains from the evidence.",
+      "trap": "A gap you never close. Pay it off by line 4 or you have written clickbait."
+    },
+    {
+      "id": 20,
+      "slug": "walk-away",
+      "name": "The Walk-Away",
+      "template": "I {fired/quit/deleted/cancelled} {valuable thing}. {Result}.",
+      "example_is_illustration": true,
+      "example": "I fired my highest-paying client in January. Revenue is up 30%.",
+      "fit": "Something stopped or rejected, with the reason the evidence gives.",
+      "trap": "Walking away with no cost. Name what it actually cost you or it reads as theatre."
+    },
+    {
+      "id": 21,
+      "slug": "direct-value",
+      "name": "The Direct Value",
+      "template": "Here is the exact {artifact} I used to {specific outcome}. Steal it.",
+      "example_is_illustration": true,
+      "example": "Here is the exact 4-line email I used to reopen 3 dead deals. Steal it.",
+      "fit": "A concrete artifact the evidence describes. Not a lead magnet.",
+      "trap": "Making them ask for something you could have just posted. Give the artifact away in the post."
+    }
+  ]
+}

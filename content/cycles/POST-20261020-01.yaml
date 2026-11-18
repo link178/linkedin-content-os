@@ -1,0 +1,12 @@
+post_id: POST-20261020-01
+topic: "Demo audit scores stay separate"
+lane: PROJECT_SHOWCASE
+audience: BROAD_TECH
+stage: semantic
+revision_count: 2
+outcome: "REVISION_EXHAUSTED"
+error: "semantic NEEDS_EDIT after revision limit"
+pid: 0
+started_at: 2026-10-20T10:01:28Z
+updated_at: 2026-10-20T10:05:58Z
+events: []

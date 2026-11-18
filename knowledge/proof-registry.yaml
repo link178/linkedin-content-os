@@ -1,0 +1,654 @@
+# Public demo proof registry. Every statement is synthetic.
+# It is not a biography, a client record, or a personal career corpus.
+claims:
+  - id: PROFILE_001
+    statement: "The public demo corpus records PROFILE_001 as a synthetic verified fact."
+    category: profile
+    source: knowledge/profile.md
+    verification: verified
+    public_safe: true
+  - id: PROFILE_002
+    statement: "The public demo corpus records PROFILE_002 as a synthetic verified fact."
+    category: profile
+    source: knowledge/profile.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_001
+    statement: "The public demo corpus records CAREER_BACKEND_001 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_002
+    statement: "The public demo corpus records CAREER_BACKEND_002 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_003
+    statement: "The public demo corpus records CAREER_BACKEND_003 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_004
+    statement: "The public demo corpus records CAREER_BACKEND_004 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_005
+    statement: "The public demo corpus records CAREER_BACKEND_005 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_006
+    statement: "The public demo corpus records CAREER_BACKEND_006 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_007
+    statement: "The public demo corpus records CAREER_BACKEND_007 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_008
+    statement: "The public demo corpus records CAREER_BACKEND_008 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_BACKEND_009
+    statement: "The public demo corpus records CAREER_BACKEND_009 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/backend-platform.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_001
+    statement: "The public demo corpus records CAREER_AI_001 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_002
+    statement: "The public demo corpus records CAREER_AI_002 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_003
+    statement: "The public demo corpus records CAREER_AI_003 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_004
+    statement: "The public demo corpus records CAREER_AI_004 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_005
+    statement: "Applied AI work includes MCP and tool integrations."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_006
+    statement: "The public demo corpus records CAREER_AI_006 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_007
+    statement: "The public demo corpus records CAREER_AI_007 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_008
+    statement: "The public demo corpus records CAREER_AI_008 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_009
+    statement: "The public demo corpus records CAREER_AI_009 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_010
+    statement: "The public demo corpus records CAREER_AI_010 as a synthetic verified fact."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: verified
+    public_safe: true
+  - id: CAREER_AI_011
+    statement: "Blocked fixture CAREER_AI_011 is withheld from the public demo corpus."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: unverified
+    public_safe: false
+  - id: CAREER_AI_012
+    statement: "Blocked fixture CAREER_AI_012 is withheld from the public demo corpus."
+    category: career
+    source: knowledge/career/applied-ai.md
+    verification: unverified
+    public_safe: false
+  - id: POSITIONING_001
+    statement: "The demo author treats POSITIONING_001 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/positioning.md
+    verification: derived
+    public_safe: true
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: POSITIONING_002
+    statement: "The demo author treats POSITIONING_002 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/positioning.md
+    verification: derived
+    public_safe: true
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: LEGAL_RAG_001
+    statement: "The public demo corpus records LEGAL_RAG_001 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+  - id: LEGAL_RAG_002
+    statement: "The public demo corpus records LEGAL_RAG_002 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+  - id: LEGAL_RAG_003
+    statement: "The public demo corpus records LEGAL_RAG_003 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+  - id: LEGAL_RAG_004
+    statement: "The public demo corpus records LEGAL_RAG_004 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+  - id: LEGAL_RAG_005
+    statement: "The demo retrieval lab uses Reciprocal Rank Fusion to merge two ranked lists."
+    category: project
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+  - id: LEGAL_RAG_006
+    statement: "The demo retrieval lab recorded precision of 0.80 on a separate smoke checklist."
+    category: metric
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+    qualification: "Applies only to the named demo checklist. Do not generalize to production accuracy."
+  - id: LEGAL_RAG_007
+    statement: "A nine-question retrieval evaluation achieved Hit Rate 1.0."
+    category: metric
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+    qualification: "Applies only to that nine-question set. Do not generalize to perfect retrieval, 100% accuracy, or production-grade accuracy."
+  - id: LEGAL_RAG_008
+    statement: "The demo retrieval lab reported an MRR of 0.75 on that nine-question set."
+    category: metric
+    source: knowledge/projects/legal-rag-engine.md
+    verification: verified
+    public_safe: true
+    project: legal-rag-engine
+    qualification: "Applies only to the named demo checklist. Do not generalize to production accuracy."
+  - id: LEGAL_RAG_009
+    statement: "The demo author treats LEGAL_RAG_009 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/legal-rag-engine.md
+    verification: derived
+    public_safe: true
+    project: legal-rag-engine
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: LEADFINDER_001
+    statement: "The public demo corpus records LEADFINDER_001 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_002
+    statement: "The public demo corpus records LEADFINDER_002 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_003
+    statement: "The public demo corpus records LEADFINDER_003 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_004
+    statement: "The public demo corpus records LEADFINDER_004 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_005
+    statement: "The public demo corpus records LEADFINDER_005 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_006
+    statement: "The public demo corpus records LEADFINDER_006 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_007
+    statement: "The public demo corpus records LEADFINDER_007 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_008
+    statement: "The public demo corpus records LEADFINDER_008 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_009
+    statement: "The public demo corpus records LEADFINDER_009 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_010
+    statement: "The demo author treats LEADFINDER_010 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/leadfinder.md
+    verification: derived
+    public_safe: true
+    project: leadfinder
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: LEADFINDER_011
+    statement: "Blocked fixture LEADFINDER_011 is withheld from the public demo corpus."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: unverified
+    public_safe: false
+    project: leadfinder
+  - id: LEADFINDER_012
+    statement: "The public demo corpus records LEADFINDER_012 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_013
+    statement: "The public demo corpus records LEADFINDER_013 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_014
+    statement: "The public demo corpus records LEADFINDER_014 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_015
+    statement: "The public demo corpus records LEADFINDER_015 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_016
+    statement: "The public demo corpus records LEADFINDER_016 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/leadfinder.md
+    verification: verified
+    public_safe: true
+    project: leadfinder
+  - id: LEADFINDER_017
+    statement: "The demo author treats LEADFINDER_017 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/leadfinder.md
+    verification: derived
+    public_safe: true
+    project: leadfinder
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: PORTFOLIO_001
+    statement: "The public demo corpus records PORTFOLIO_001 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_002
+    statement: "The public demo corpus records PORTFOLIO_002 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_003
+    statement: "The public demo corpus records PORTFOLIO_003 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_004
+    statement: "The public demo corpus records PORTFOLIO_004 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_005
+    statement: "The public demo corpus records PORTFOLIO_005 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_006
+    statement: "The public demo corpus records PORTFOLIO_006 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/portfolio.md
+    verification: verified
+    public_safe: true
+    project: portfolio
+  - id: PORTFOLIO_007
+    statement: "The demo author treats PORTFOLIO_007 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/portfolio.md
+    verification: derived
+    public_safe: true
+    project: portfolio
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: IGREADER_001
+    statement: "The public demo corpus records IGREADER_001 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/igreader.md
+    verification: verified
+    public_safe: true
+    project: igreader
+  - id: IGREADER_002
+    statement: "The public demo corpus records IGREADER_002 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/igreader.md
+    verification: verified
+    public_safe: true
+    project: igreader
+  - id: IGREADER_003
+    statement: "The public demo corpus records IGREADER_003 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/igreader.md
+    verification: verified
+    public_safe: true
+    project: igreader
+  - id: IGREADER_004
+    statement: "Blocked fixture IGREADER_004 is withheld from the public demo corpus."
+    category: opinion
+    source: knowledge/projects/igreader.md
+    verification: derived
+    public_safe: false
+    project: igreader
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: IGREADER_005
+    statement: "Blocked fixture IGREADER_005 is withheld from the public demo corpus."
+    category: metric
+    source: knowledge/projects/igreader.md
+    verification: unverified
+    public_safe: false
+    project: igreader
+    qualification: "Applies only to the named demo checklist. Do not generalize to production accuracy."
+  - id: AI_DEV_001
+    statement: "The public demo corpus records AI_DEV_001 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_002
+    statement: "The public demo corpus records AI_DEV_002 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_003
+    statement: "The public demo corpus records AI_DEV_003 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_004
+    statement: "The public demo corpus records AI_DEV_004 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_005
+    statement: "The public demo corpus records AI_DEV_005 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_006
+    statement: "The public demo corpus records AI_DEV_006 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_007
+    statement: "The public demo corpus records AI_DEV_007 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_008
+    statement: "The public demo corpus records AI_DEV_008 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_009
+    statement: "The public demo corpus records AI_DEV_009 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_010
+    statement: "The public demo corpus records AI_DEV_010 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_011
+    statement: "The public demo corpus records AI_DEV_011 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_012
+    statement: "The public demo corpus records AI_DEV_012 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_013
+    statement: "The demo author treats AI_DEV_013 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: AI_DEV_014
+    statement: "The demo author treats AI_DEV_014 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: AI_DEV_015
+    statement: "The demo author treats AI_DEV_015 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: AI_DEV_016
+    statement: "The demo author treats AI_DEV_016 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: AI_DEV_017
+    statement: "The demo author treats AI_DEV_017 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."
+  - id: AI_DEV_018
+    statement: "Blocked fixture AI_DEV_018 is withheld from the public demo corpus."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: unverified
+    public_safe: false
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_019
+    statement: "The public demo corpus records AI_DEV_019 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_020
+    statement: "The public demo corpus records AI_DEV_020 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_021
+    statement: "The public demo corpus records AI_DEV_021 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_022
+    statement: "The public demo corpus records AI_DEV_022 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_023
+    statement: "The public demo corpus records AI_DEV_023 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_024
+    statement: "The public demo corpus records AI_DEV_024 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_025
+    statement: "The public demo corpus records AI_DEV_025 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_026
+    statement: "The public demo corpus records AI_DEV_026 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_027
+    statement: "Extra tooling and agent scaffolding on a tested workflow did not improve that workflow, so the lighter setup stayed."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+    qualification: "Applies only to the tested IntelliJ workflow and use case. It is not a claim that the layer is universally worse, and it does not name an external tool."
+  - id: AI_DEV_028
+    statement: "The public demo corpus records AI_DEV_028 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_029
+    statement: "The public demo corpus records AI_DEV_029 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_030
+    statement: "The public demo corpus records AI_DEV_030 as a synthetic verified fact."
+    category: project
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: verified
+    public_safe: true
+    project: ai-assisted-software-engineering
+  - id: AI_DEV_031
+    statement: "The demo author treats AI_DEV_031 as an interpretation, not a measured result."
+    category: opinion
+    source: knowledge/projects/ai-assisted-software-engineering.md
+    verification: derived
+    public_safe: true
+    project: ai-assisted-software-engineering
+    notes: "Synthetic interpretation for the public demo corpus."

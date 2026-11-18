@@ -1,0 +1,49 @@
+{
+  "snapshot_max_age_hours": 24,
+  "item_window_days": 10,
+  "stale_after_days": 14,
+  "max_items_per_source": 12,
+  "max_candidates": 16,
+  "max_candidates_per_category": 3,
+  "max_sources_per_candidate": 3,
+  "excerpt_chars": 1600,
+  "evidence_excerpt_chars": 1600,
+  "request_timeout_sec": 15,
+  "assessment_timeout_sec": 600,
+  "discussion": {
+    "provider": "Hacker News (Algolia search API)",
+    "min_points": 100,
+    "major_points": 300
+  },
+  "categories": {
+    "AI_SOCIETY": "Artificial intelligence and its societal implications",
+    "AI_EMPLOYMENT_SKILLS": "Impact of AI on employment and professional skills",
+    "TECH_COMPANY_CHANGES": "Major changes at technology companies",
+    "TECH_MARKETS_BUSINESS": "Technology markets and business developments",
+    "AI_MODELS_CAPABILITIES": "New AI models and capabilities",
+    "SOFTWARE_ENGINEERING": "Software engineering and developer productivity",
+    "AI_POLICY_INFRA": "AI regulation, safety, economics and infrastructure",
+    "AI_ADOPTION": "AI adoption by companies",
+    "ENGINEERING_DECISIONS": "Important engineering decisions and trade-offs"
+  },
+  "sources": [
+    {"id": "openai", "name": "OpenAI News", "url": "https://openai.com/news/rss.xml", "tier": "primary", "categories": ["AI_MODELS_CAPABILITIES", "AI_ADOPTION"]},
+    {"id": "deepmind", "name": "Google DeepMind Blog", "url": "https://deepmind.google/blog/rss.xml", "tier": "primary", "categories": ["AI_MODELS_CAPABILITIES"]},
+    {"id": "google-ai", "name": "Google AI Blog", "url": "https://blog.google/technology/ai/rss/", "tier": "primary", "categories": ["AI_MODELS_CAPABILITIES", "AI_ADOPTION"]},
+    {"id": "huggingface", "name": "Hugging Face Blog", "url": "https://huggingface.co/blog/feed.xml", "tier": "primary", "categories": ["AI_MODELS_CAPABILITIES"]},
+    {"id": "github-changelog", "name": "GitHub Changelog", "url": "https://github.blog/changelog/feed/", "tier": "primary", "categories": ["SOFTWARE_ENGINEERING"]},
+    {"id": "github-blog", "name": "GitHub Blog", "url": "https://github.blog/feed/", "tier": "primary", "categories": ["SOFTWARE_ENGINEERING", "AI_ADOPTION"]},
+    {"id": "stackoverflow", "name": "Stack Overflow Blog", "url": "https://stackoverflow.blog/feed/", "tier": "analysis", "categories": ["SOFTWARE_ENGINEERING", "AI_EMPLOYMENT_SKILLS"]},
+    {"id": "infoq", "name": "InfoQ", "url": "https://feed.infoq.com/", "tier": "reporting", "categories": ["SOFTWARE_ENGINEERING", "ENGINEERING_DECISIONS"]},
+    {"id": "fowler", "name": "Martin Fowler", "url": "https://martinfowler.com/feed.atom", "tier": "analysis", "categories": ["ENGINEERING_DECISIONS"]},
+    {"id": "willison", "name": "Simon Willison", "url": "https://simonwillison.net/atom/everything/", "tier": "analysis", "categories": ["AI_MODELS_CAPABILITIES", "SOFTWARE_ENGINEERING"]},
+    {"id": "mit-tr-ai", "name": "MIT Technology Review — AI", "url": "https://www.technologyreview.com/topic/artificial-intelligence/feed", "tier": "reporting", "categories": ["AI_SOCIETY", "AI_POLICY_INFRA"]},
+    {"id": "ieee-ai", "name": "IEEE Spectrum — AI", "url": "https://spectrum.ieee.org/feeds/topic/artificial-intelligence.rss", "tier": "reporting", "categories": ["AI_POLICY_INFRA", "AI_MODELS_CAPABILITIES"]},
+    {"id": "guardian-ai", "name": "The Guardian — AI", "url": "https://www.theguardian.com/technology/artificialintelligenceai/rss", "tier": "reporting", "categories": ["AI_SOCIETY", "AI_EMPLOYMENT_SKILLS", "AI_POLICY_INFRA"]},
+    {"id": "bbc-tech", "name": "BBC News — Technology", "url": "https://feeds.bbci.co.uk/news/technology/rss.xml", "tier": "reporting", "categories": ["AI_SOCIETY", "TECH_COMPANY_CHANGES"]},
+    {"id": "verge-ai", "name": "The Verge — AI", "url": "https://www.theverge.com/rss/ai-artificial-intelligence/index.xml", "tier": "reporting", "categories": ["AI_MODELS_CAPABILITIES", "TECH_COMPANY_CHANGES"]},
+    {"id": "techcrunch-ai", "name": "TechCrunch — AI", "url": "https://techcrunch.com/category/artificial-intelligence/feed/", "tier": "reporting", "categories": ["AI_ADOPTION", "TECH_MARKETS_BUSINESS"]},
+    {"id": "arstechnica", "name": "Ars Technica — Technology Lab", "url": "https://feeds.arstechnica.com/arstechnica/technology-lab", "tier": "reporting", "categories": ["TECH_COMPANY_CHANGES", "AI_POLICY_INFRA"]},
+    {"id": "cnbc-tech", "name": "CNBC — Technology", "url": "https://www.cnbc.com/id/19854910/device/rss/rss.html", "tier": "reporting", "categories": ["TECH_MARKETS_BUSINESS", "TECH_COMPANY_CHANGES", "AI_EMPLOYMENT_SKILLS"]}
+  ]
+}

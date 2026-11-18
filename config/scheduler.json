@@ -1,0 +1,12 @@
+{
+  "task_name": "LinkedInContentOS-EditorialCycle",
+  "verify_task_name": "LinkedInContentOS-EditorialCycle-Verify",
+  "weekdays": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+  "start_time_local": "09:00",
+  "timezone_id": "UTC",
+  "max_runs_per_day": 1,
+  "max_duration_sec": 5400,
+  "task_time_limit_sec": 6000,
+  "wake_to_run": false,
+  "start_when_available": false
+}
