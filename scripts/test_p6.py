@@ -7,6 +7,7 @@ import io
 import json
 import os
 import re
+import shlex
 import shutil
 import subprocess
 import sys
@@ -33,6 +34,24 @@ import cursor_runtime as runtime_mod  # noqa: E402
 import cycle as cycle_mod  # noqa: E402
 import inbox  # noqa: E402
 from test_content_engine import STRONG_P5_BODY, claim_lines, post_text  # noqa: E402
+
+
+def write_fake_agent(root: Path, argv: list[str]) -> Path:
+    """Write a stand-in agent that runs argv and ignores later CLI arguments.
+
+    Windows uses agent.cmd. Other platforms use an executable shell script,
+    because spawning a batch file fails there with permission denied.
+    """
+    if sys.platform == "win32":
+        agent = root / "agent.cmd"
+        command = " ".join(f'"{part}"' for part in argv)
+        agent.write_text(f"@echo off\r\n{command}\r\n", encoding="utf-8")
+        return agent
+    agent = root / "agent.sh"
+    command = " ".join(shlex.quote(part) for part in argv)
+    agent.write_text(f"#!/bin/sh\nexec {command}\n", encoding="utf-8")
+    agent.chmod(agent.stat().st_mode | 0o111)
+    return agent
 
 
 METRIC_FIRST_RAG_BODY = (
@@ -304,6 +323,10 @@ class CursorRuntimeTests(unittest.TestCase):
             self.assertEqual(len(snapshots), 1)
             self.assertFalse(snapshots[0].exists())
 
+    @unittest.skipUnless(
+        sys.platform == "win32",
+        "process-tree stop uses taskkill /T on Windows",
+    )
     def test_real_timeout_kills_descendant_processes(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
@@ -359,8 +382,7 @@ class CursorRuntimeTests(unittest.TestCase):
                 "print(json.dumps({'result': json.dumps({'verdict': 'PASS', 'note': \"café\"})}))\n",
                 encoding="utf-8",
             )
-            agent = root / "agent.cmd"
-            agent.write_text(f'@echo off\r\n"{sys.executable}" "{emitter}"\r\n', encoding="utf-8")
+            agent = write_fake_agent(root, [sys.executable, str(emitter)])
             runtime = runtime_mod.CursorRuntime(repo_root=root, agent_path=agent, timeout_sec=30)
             with patch.dict(os.environ, {"CURSOR_RUNTIME_SKIP_AUTH": "1"}):
                 result = runtime.ask("Return one JSON object.")
@@ -375,8 +397,7 @@ class CursorRuntimeTests(unittest.TestCase):
                 "sys.stdout.buffer.write(b'{\"result\": \"\\x9d\"}')\n",
                 encoding="utf-8",
             )
-            agent = root / "agent.cmd"
-            agent.write_text(f'@echo off\r\n"{sys.executable}" "{emitter}"\r\n', encoding="utf-8")
+            agent = write_fake_agent(root, [sys.executable, str(emitter)])
             runtime = runtime_mod.CursorRuntime(repo_root=root, agent_path=agent, timeout_sec=30)
             with patch.dict(os.environ, {"CURSOR_RUNTIME_SKIP_AUTH": "1"}):
                 with self.assertRaises(runtime_mod.CursorRuntimeError) as raised:
@@ -387,7 +408,11 @@ class CursorRuntimeTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
             script = root / "say.py"
-            script.write_text('print("external factual statement: café résumé")\n', encoding="utf-8")
+            script.write_text(
+                "import sys\n"
+                "sys.stdout.buffer.write('external factual statement: café résumé\\n'.encode('utf-8'))\n",
+                encoding="utf-8",
+            )
             completed = cycle_mod.run_subprocess([str(script)], cwd=root)
             self.assertIn("café", completed.stdout or "")
 
@@ -414,11 +439,7 @@ class CursorRuntimeTests(unittest.TestCase):
                 "print(json.dumps({'result': json.dumps({'verdict': 'PASS'})}))\n",
                 encoding="utf-8",
             )
-            agent = root / "agent.cmd"
-            agent.write_text(
-                f'@echo off\r\n"{sys.executable}" "{emitter}"\r\n',
-                encoding="utf-8",
-            )
+            agent = write_fake_agent(root, [sys.executable, str(emitter)])
             snapshots: list[Path] = []
             original_snapshot = runtime_mod.build_snapshot
 
