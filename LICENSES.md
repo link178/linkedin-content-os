@@ -1,5 +1,7 @@
 # Third-party licenses
 
+The project license is the MIT License in [LICENSE](LICENSE), Copyright (c) 2026 Juan José Sánchez Arroyo. This file records third-party notices that stay in place beside that grant.
+
 This repository vendors third-party source for traceability. Vendored code is reference material. It is not the production implementation of LinkedIn Content OS.
 
 ## linkedin-agent-skill

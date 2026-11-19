@@ -46,7 +46,7 @@ Details and a diagram: [docs/engineering.md](docs/engineering.md).
 | `content/` | Synthetic strategy, ideas, drafts, and one fake published fixture |
 | `research/trends/` | Short synthetic notes for source-token checks. Not article copies |
 | `vendor/` | Unmodified MIT snapshot of linkedin-agent-skill, for reference |
-| `docs/` | Contracts, LinkedIn integration, scheduler, license proposal |
+| `docs/` | Contracts, LinkedIn integration, scheduler, and the MIT license note |
 
 ## Evidence and validation
 
@@ -151,6 +151,8 @@ An unattended calendar start has not been verified. One interactive test-mode ru
 
 ## License
 
-Third-party MIT code and the adapted humanize helpers stay under their own notices. See [LICENSES.md](LICENSES.md) and `.cursor/skills/li-human/NOTICE.md`.
+This project is released under the MIT License. See [LICENSE](LICENSE).
 
-A project-wide license for the original code is not chosen yet. The candidate and the comparison are in [docs/licensing.md](docs/licensing.md). Do not treat this tree as licensed for redistribution until a `LICENSE` file is added.
+Copyright (c) 2026 Juan José Sánchez Arroyo
+
+Vendored and adapted third-party code keeps its own MIT notices. See [LICENSES.md](LICENSES.md), `.cursor/skills/li-human/NOTICE.md`, and [docs/licensing.md](docs/licensing.md). Those notices stay with the upstream files and are not replaced by the project license.
